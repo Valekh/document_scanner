@@ -1,0 +1,5 @@
+opencv-python
+pytesseract
+requests
+Pillow
+google-api-python-client google-auth-httplib2 google-auth-oauthlib
