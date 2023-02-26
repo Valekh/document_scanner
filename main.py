@@ -41,7 +41,6 @@ def scan(file):
                 borders = check_the_borders(image)
 
                 if result['readability']:
-                    print('beep')
                     result['readability'] = readability
 
                 if result['borders']:
