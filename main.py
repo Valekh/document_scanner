@@ -121,8 +121,6 @@ def extract_images_from_pdf(file):
 def text_recognition(image):
     img = cv2.imread(image)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    cv2.imshow('output1', img)
-    cv2.waitKey(0)
 
     result = pytesseract.image_to_string(img)
 
