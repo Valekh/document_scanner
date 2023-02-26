@@ -88,7 +88,7 @@ def download_file_from_gd(file_id, file_extension):
     fh.seek(0)
 
     file_name = 'file_from_google.' + file_extension
-    with open('file_from_google' + file_extension, "wb") as f:
+    with open(file_name, "wb") as f:
         f.write(fh.read())
         f.close()
     return file_name
